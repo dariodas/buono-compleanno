@@ -1,0 +1,79 @@
+/* Stili di base per il mobile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf1f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(235, 168, 192, 0.3);
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #f7b2c4;
+}
+
+h1 {
+    color: #e75480;
+    font-size: 1.8em;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    color: #d48e98;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555555;
+}
+
+.combination-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #e75480;
+}
+
+.combination-list li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.small-text {
+    font-size: 0.85em; /* Testo più piccolo */
+    color: #777777;
+}
+
+.validity {
+    font-size: 0.9em;
+    color: #777777;
+}
+
+.signature {
+    font-size: 1.2em; /* Maggiore evidenza */
+    color: #e75480;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.highlight {
+    color: #e75480;
+    font-weight: bold;
+}
+
+strong {
+    color: #d06f85;
+}
