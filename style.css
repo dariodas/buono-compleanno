@@ -3,24 +3,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fdf1f6;
+    background-color: #fdf1f6; /* Sfondo rosa */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 20px; /* Margine intorno alla pagina su mobile */
+    box-sizing: border-box;
 }
 
 .container {
     width: 90%;
     max-width: 400px;
     background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(235, 168, 192, 0.3);
+    border-radius: 15px; /* Arrotondamento dei bordi */
+    box-shadow: 0 4px 15px rgba(235, 168, 192, 0.4); /* Ombra rosa per effetto sollevato */
     padding: 25px;
     text-align: center;
-    border: 1px solid #f7b2c4;
+    border: 1px solid #f7b2c4; /* Bordo rosa pastello */
 }
 
+/* Stili per i titoli e sezioni */
 h1 {
     color: #e75480;
     font-size: 1.8em;
@@ -36,6 +39,7 @@ h1 {
     margin-bottom: 10px;
 }
 
+/* Stile dei paragrafi e testi */
 p {
     color: #555555;
 }
@@ -53,7 +57,7 @@ p {
 }
 
 .small-text {
-    font-size: 0.85em; /* Testo più piccolo */
+    font-size: 0.85em;
     color: #777777;
 }
 
@@ -63,7 +67,7 @@ p {
 }
 
 .signature {
-    font-size: 1.2em; /* Maggiore evidenza */
+    font-size: 1.2em;
     color: #e75480;
     font-weight: bold;
     margin-top: 15px;
